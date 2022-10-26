@@ -7,22 +7,18 @@ const Base = (props) => {
   return (
     <>
       <Header />
-      <div className="bg-image pt-5">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-3 pt-5" >
+      <div className="bg-image">
               <div className="sidebar-section">
               <Sidebar />
               </div>
-            </div>
-            <div className='col-md-9'
+            <div className='mainss'
             >
-              {props.children}
+             <div className="px-5">
+             {props.children}
 
+             </div>
             </div>
           </div>
-        </div>
-      </div>
       <Footer />
     </>
   )

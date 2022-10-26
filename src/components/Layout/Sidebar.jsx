@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
     return (
-        <div className='py-5'>
-            <div className="logo">
+        <div className='py-5 mt-5'>
+            <div className="logo mt-5">
                 <a href="/" className='d-flex justify-content-center'><img src="https://app.safuu.com/static/media/safuu-logo.ca35646e.png" width={'50%'} className='img-fluid' alt="" /></a>
             </div>
 
