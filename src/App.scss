@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.body {
+  font-family: Montserrat;
+}
+
+.bg-image {
+  background-image: url("https://app.safuu.com/static/media/app-bg.bfb12b5b.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/////////////////////////////  HEADER SECTIO ///////////////////@at-root
+
+.btn-wallet {
+  background: linear-gradient(90deg, #024b05, #36d33b);
+  border-radius: 2px !important;
+  box-shadow: 0 0 5px 0 #36d63b;
+  border: 2px solid #36d63b !important;
+  padding: 13px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+}
+
+.btn-safu {
+  padding: 9px 26px;
+  background: #011101;
+  border-radius: 2px !important;
+  border: 2px solid #012b04 !important;
+  font-family: Montserrat;
+}
+
+.nav-logo {
+  width: 201px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #34c439;
+  font-family: sf-ui;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+
+.social-icon a {
+  background-color: #011101;
+  width: 31px;
+  height: 31px;
+  border-radius: 5px;
+  border: 1px solid #013005;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin: 0px 5px 0px 5px;
+}
+
+.bg-010901 {
+  background-color: #010901;
+}
+.bdr-btm {
+  border-bottom: 2px solid #0b6a0e;
+}
+
+.bdr{
+    padding: 9px 26px;
+    background: #011101;
+    border-radius: 2px;
+    border: 2px solid #012b04;
+}
+
+///////////////////////// SIDEBAR SECTION  ////////////////////////////@at-root
+
+.sidebar-section {
+  top: 0;
+  left: 0;
+  // position: fixed;
+  border-left: 2px solid #0b6a0e;
+  // margin-left: 20px;
+  border-right: 2px solid #0b6a0e;
+  overflow: auto;
+
+  .menu-list {
+    ul li {
+      list-style: none;
+      margin: 15px 10px 15px 10px;
+    }
+    a {
+      border-radius: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background: #011a01;
+      padding-left: 30px;
+    }
+    .active {
+      border-radius: 5px;
+      box-shadow: 0 0 5px 0 #36d63b;
+      border: 2px solid #36d63b;
+      background: linear-gradient(90deg, #024b05, #36d33b);
+    }
+  }
+}
+
+/////////////////////////////// HOME HERO SECTION /////////////////////////////////
+
+.dashboard-section {
+  .card {
+    // backdrop-filter: blur(10px) !important;
+    /* align-items: center; */
+    /* width: 100%; */
+    border: 1px solid #114e13 !important;
+    border-radius: 10px !important;
+
+    .card-title {
+      font-size: 20px;
+      color: #07de0f;
+      padding-top: 10px;
+    }
+
+    .timer {
+      border-radius: 9999px;
+      width: 60%;
+      margin: 30px auto;
+      position: relative;
+      padding-top: 60%;
+      -webkit-animation: counter 1s ease-in-out infinite;
+      animation: counter 1s ease-in-out infinite;
+
+      span{
+        position: absolute;
+    /* font-family: sf-ui-bold; */
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #47bd4b;
+    -webkit-animation: second 1s ease-in-out infinite;
+    animation: second 1s ease-in-out infinite;
+      }
+    }
+  }
+}
+
+////////////////////// ACCOUNT SECTION ///////////////////////////////
+
+
+.account-section{
+
+    .card {
+        border: 1px solid #114e13 !important;
+        border-radius: 10px !important;
+    
+        .card-title {
+          font-size: 20px;
+          color: #07de0f;
+          padding-top: 10px;
+        }
+    }
+}
