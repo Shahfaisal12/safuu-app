@@ -192,15 +192,15 @@
     }
 
     .timer {
-      border-radius: 9999px;
-      width: 60%;
-      margin: 30px auto;
+      background-color: #000000;
+      width: 150px;
+      height: 150px;
+      margin: 15px auto;
       position: relative;
-      padding-top: 60%;
       -webkit-animation: counter 1s ease-in-out infinite;
       animation: counter 1s ease-in-out infinite;
-
-      span {
+      box-shadow: 0px 0px 15px #07de0f;
+      span{
         position: absolute;
         top: 0;
         width: 100%;
@@ -210,11 +210,12 @@
         justify-content: center;
         align-items: center;
         font-size: 30px;
-        color: #47bd4b;
+        color: #07de0f;
         -webkit-animation: second 1s ease-in-out infinite;
         animation: second 1s ease-in-out infinite;
       }
     }
+    
   }
 }
 
@@ -332,11 +333,6 @@
   .sidebar-section {
     width: 100% !important;
   }
-
-  .mains-content {
-    padding-top: 123px;
-    padding-left: 0px !important;
-  }
   .sidebar-section {
     background-color: transparent !important;
   }
@@ -348,5 +344,15 @@
   }
   .swap-card{
     padding: 5px !important;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .mains-content {
+    padding-left: 0px !important;
+  }
+  .bdr{
+    border: none !important;
   }
 }

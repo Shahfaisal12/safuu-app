@@ -72,6 +72,7 @@ const Calculator = () => {
                         </div>
                         <Form>
                             <Row className="mb-3">
+        <Col sm="12" md={6}>
                                 <Form.Group as={Col}>
                                     <Form.Label className='fw-bold text-white'>SAFUU Amount</Form.Label>
                                     <InputGroup className="mb-2 p-1">
@@ -79,6 +80,8 @@ const Calculator = () => {
                                         <InputGroup.Text className='fw-bold text-white border-0 coursor bg-transparent ml-0 cursor-pointer fs-5'>Max</InputGroup.Text>
                                     </InputGroup>
                                 </Form.Group>
+                                    </Col>
+        <Col sm="12" md={6}>
                                 <Form.Group as={Col}>
                                     <Form.Label className='fw-bold text-white'>APY (%)</Form.Label>
                                     <InputGroup className="mb-2 p-1">
@@ -86,9 +89,11 @@ const Calculator = () => {
                                         <InputGroup.Text className='fw-bold text-white border-0 coursor bg-transparent ml-0 cursor-pointer fs-5'>Current</InputGroup.Text>
                                     </InputGroup>
                                 </Form.Group>
+                                    </Col>
 
                             </Row>
                             <Row className="mb-3">
+        <Col sm="12" md={6}>
                                 <Form.Group as={Col}>
                                     <Form.Label className='fw-bold text-white'>SAFUU price at purchase ($)</Form.Label>
                                     <InputGroup className="mb-2 p-1">
@@ -96,6 +101,8 @@ const Calculator = () => {
                                         <InputGroup.Text className='fw-bold text-white border-0 coursor bg-transparent ml-0 cursor-pointer fs-5'>Current</InputGroup.Text>
                                     </InputGroup>
                                 </Form.Group>
+                                </Col>
+        <Col sm="12" md={6}>
                                 <Form.Group as={Col}>
                                     <Form.Label className='fw-bold text-white'>Future SAFUU market price ($)</Form.Label>
                                     <InputGroup className="mb-2 p-1">
@@ -103,8 +110,10 @@ const Calculator = () => {
                                         <InputGroup.Text className='fw-bold text-white border-0 coursor bg-transparent ml-0 cursor-pointer fs-5'>Current</InputGroup.Text>
                                     </InputGroup>
                                 </Form.Group>
+                                </Col>
                             </Row>
                             <Row className="mb-3">
+        <Col sm="12" md={6}>
                                 <Form.Group as={Col}>
                                     <Typography gutterBottom className='text-white fw-bold'>23 days First Year :<span className='mx-3'> 0.02355% Per EPOCH</span></Typography>
                                     <PrettoSlider
@@ -113,6 +122,8 @@ const Calculator = () => {
                                         defaultValue={20}
                                     />
                                 </Form.Group>
+                                </Col>
+        <Col sm="12" md={6}>
                                 <Form.Group as={Col}>
                                     <Typography gutterBottom className='text-white fw-bold'>Second Year : 0.00211% Per EPOCH</Typography>
                                     <PrettoSlider
@@ -121,6 +132,7 @@ const Calculator = () => {
                                         defaultValue={20}
                                     />
                                 </Form.Group>
+                                </Col>
                             </Row>
                             <div className="mt-3">
                                 <div className="d-flex align-items-center justify-content-between py-2">
